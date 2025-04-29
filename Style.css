@@ -41,7 +41,76 @@ form {
     justify-content: space-around;
 }
 
-figure {
+.about {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(127, 127, 127, 0.5);
+    transition: ease 1.5s;
+    backdrop-filter: blur(15px)
+}
+
+.closebutton {
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    margin-left: 10px;
+  }
+
+.about:target {
+    opacity: 1;
+    pointer-events: auto;
+    
+  }
+
+.about-image{
+    left: 60%;
+    top: 5%;
+    width: 500px;
+    height: 650px;
+    max-width: 75vw;
+    max-height: 90vh;
+    position: absolute;
+    background: black;
+  }
+
+.about-para {
+    width: 600px;
+    height: 500px;
+    max-width: 75vw;
+    max-height: 75vh;
+    letter-spacing: 5px;
+    position: absolute;
+    left: 10%;
+    top: 23%;
+}
+
+.about-heading {
+    width: 600px;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 9%;
+    letter-spacing: 125px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.closebutton:hover {
+    color: white;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: Black;
+}
+
+/* figure {
     display: flex;
     justify-content: center;
     width:1308px;
@@ -101,87 +170,7 @@ figure > #SecondImg {
     position: absolute;
     left:663px;
     top: 0;
-}
-
-.about {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0;
-    pointer-events: none;
-    background: rgba(0, 0, 0, .5);
-    transition: all ease 1s;
-}
-
-/* .closeoverlay {
-    top: 20;
-    right: 20;
-    bottom: 20;
-    left: 20;
-    opacity: 100;
-    display: block;
-    z-index: 2;
-    position: fixed;
-    cursor: pointer;
-    } */
-
-.closebutton {
-    color: black;
-    text-decoration: none;
-    font-size: 50px;
-    margin-left: 10px;
-  }
-
-.about:target {
-    opacity: 1;
-    pointer-events: auto;
-    
-  }
-  
-.about:target>.closeoverlay {
-    display: block;
-  }
-
-.about-image{
-    left: 60%;
-    top: 10%;
-    width: 300px;
-    height: 500px;
-    max-width: 75vw;
-    max-height: 75vh;
-    background: black;
-    z-index: 2;
-  }
-
-.about-para {
-    background: rgba(0, 0, 0, 0.199);
-    width: 300px;
-    height: 500px;
-    max-width: 75vw;
-    max-height: 75vh;
-    text-align: center;
-    position: relative;
-    left: 40%;
-    top: 10%;
-    z-index: 3;
-}
-
-.closebutton:hover {
-    color: white;
-}
-
-/* .about-image {
-    left: 60%;
-    top: 10%;
 } */
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    color: white;
-}
 
 footer {
     height: 75px;
