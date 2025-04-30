@@ -15,4 +15,6 @@ OR
 - Create modal image/popup with gentle extended ease transition with parallel text opposite image, and dimmed blurred background.
 - Dont worry about wanting have the animation and transiition from link location to container location
 - ~~Add blur to background content for About page. (Use animations? Add keyframes? At 50% it x opaque, at 100% it's completely opaque and blurred?)  Do I need to create another layer that becomes active once I press on the link?~~ All you need is a blur filter.
+- Insert programming language logos below paragraph on skills page, as shown in the wireframe.
+- Make sure footer is not blurred on About and Skills pages.
 - 
