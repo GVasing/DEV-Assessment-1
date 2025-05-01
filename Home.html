@@ -9,7 +9,7 @@
 <body>
 <header>
     <nav class="topnav">
-        <a href="#About"><button>ABOUT</button></a>
+        <a href="#About"><button class="navbttn">ABOUT</button></a>
         <div id ="About" class="about">
             <a class="closebutton" href="#">&times;</a>
             <div class="about-image">
@@ -23,7 +23,7 @@
             </div>
             <a href="#" class="closeoverlay"></a>
         </div>
-        <a href="#Skills"><button>SKILLS</button></a>
+        <a href="#Skills"><button class="navbttn">SKILLS</button></a>
         <div id ="Skills" class="skills">
             <a class="closebutton" href="#">&times;</a>
             <div class="skills-image">
@@ -37,8 +37,8 @@
             </div>
             <a href="#" class="closeoverlay"></a>
         </div>
-        <a href="Projects.html"><button>PROJECTS</button></a>
-        <a href="Contact.html"><button>CONTACT</button></a>
+        <a href="Projects.html"><button class="navbttn">PROJECTS</button></a>
+        <a href="Contact.html"><button class="navbttn">CONTACT</button></a>
     </nav>
     <div class="searchbar">
         <form>
@@ -49,12 +49,37 @@
 </header>
 <h1>WELCOME</h1>
     <figure>
-        <a href="About.html"><img class="about-imagelink" src="\\wsl.localhost\Ubuntu\home\george_v\DEV_Assessment_1\Photos\Self-Portrait.jpg" alt="self-portrait" width="1080px" height="1450px"></a>
-        <a href="Skills.html"><img class="skills-imagelink" src="x" alt="placeholder"></a>
-        <a href="Projects.html"><img class="projects-imagelink" src="x" alt="placeholder"></a>
-        <a href="Contact.html"><img class="contact-imagelink" src="x" alt="placeholder"></a>
-        <img class="refimageone" src="x" alt="placeholder">
-        <img class="refimagetwo" src="x" alt="placeholder"> 
+
+        <div class="about-imagelink">
+            <img src="\\wsl.localhost\Ubuntu\home\george_v\DEV_Assessment_1\Photos\Self-Portrait.jpg" alt="self-portrait" width="1080px" height="1450px">
+            <div class="figureoverlays">
+                <a href="#About"><button>ABOUT</button></a>
+            </div>
+        </div>
+
+        <div class="skills-imagelink">
+            <img src="https://picsum.photos/316/282" alt="placeholder">
+            <div class="figureoverlays">
+                <a href="#Skills"><button>SKILLS</button></a>
+            </div>
+        </div>
+
+        <div class="projects-imagelink">
+            <img src="https://picsum.photos/316/282" alt="placeholder">
+            <div class="figureoverlays">
+                <a href="Projects.html"><p>PROJECTS</p></a>
+            </div>
+        </div>
+
+        <div class="contact-imagelink">
+            <img src="https://picsum.photos/316/282" alt="placeholder">
+            <div class="figureoverlays">
+                <a href="Contact.html"><p>CONTACT</p></a>        
+            </div>
+        </div>
+
+        <img class="refimageone" src="https://picsum.photos/641/304" alt="placeholder">
+        <img class="refimagetwo" src="https://picsum.photos/641/304" alt="placeholder">
         <!-- <div id="FirstDiv" class="aboutdiv">ABOUT</div> 
         <div id="SecondDiv">SKILLS</div>
         <div id="ThirdDiv">PROJECTS</div>
