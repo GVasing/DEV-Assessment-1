@@ -23,6 +23,9 @@
                     <p>Insert Text Here. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
                 </div>
                 <a href="#" class="closeoverlay"></a>
+                <div class="footeroverlay" id="aboutfooter">
+                    GEORGE VASILIADIS - 2025 &#169;
+                </div>
             </div>
             <a href="#Skills"><button>SKILLS</button></a>
             <div id ="Skills" class="skills">
@@ -37,28 +40,45 @@
                     <p>Insert Text Here. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.</p>
                 </div>
                 <a href="#" class="closeoverlay"></a>
+                <div class="footeroverlay" id="skillsfooter">
+                    GEORGE VASILIADIS - 2025 &#169;
+                </div>
             </div>
             <a href="Projects.html"><button>PROJECTS</button></a>
         </nav>
         <div class="searchbar">
-            <form>
+            <form class="navform">
                 <input type="text" placeholder="SEARCH..." name="search">
                 <button type="submit"><i class="fa fa-search"></i></button>
             </form>
         </div>
     </header>
-    <h1>CONTACT</h1>
+    <div class="pageheading">
+        <h1>CONTACT</h1>
+    </div>
+    <form class="contactform" action="/action_page.php">
+        <label for="fullname"></label>
+        <input type="text" id="fullname" name="name" placeholder="NAME" autofocus required>
+        <label for="Email"></label>
+        <input type="email" id="Email" name="email" placeholder="EMAIL" required>
+        <label for="PhNumber"></label>
+        <input type="tel" id="PhNumber" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="PHONE" required>
+        <label for="Message"></label>
+        <textarea id="Message" name="message" rows="10">WRITE MESSAGE HERE...</textarea>
+        <input type="submit" value="SUBMIT">
+    </form>
     <section>
-        <p>Insert Paragraph Text Here</p>
+        <h3>PHONE: 0422418591</h3>
+        <h3>EMAIL: gvasiliadis72@gmail.com</h3>
     </section>
     <footer>
         <p>GEORGE VASILIADIS - 2025 &#169; </p>
-        <nav>
-        <a href=""><img src="https://img.shields.io/badge/Instagram?logo=instagram" alt="logo"></a>
-        <a href=""><img src="" alt="logo"></a>
-        <a href=""><img src="" alt="logo"></a>
-        <a href=""><img src="" alt="logo"></a>
-        </nav>
+        <!-- <nav> -->
+        <!-- <a href=""><img src="https://img.shields.io/badge/Instagram?logo=instagram" alt="logo"></a> -->
+        <!-- <a href=""><img src="" alt="logo"></a> -->
+        <!-- <a href=""><img src="" alt="logo"></a> -->
+        <!-- <a href=""><img src="" alt="logo"></a> -->
+        <!-- </nav> -->
     </footer>
 </body>
 </html>
