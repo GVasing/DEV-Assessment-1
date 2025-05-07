@@ -59,7 +59,8 @@ CONTACT PAGE:
 **MOBILE**
 
 HOME:
-- 
+- Apply animation to down arrow
+- Direct arrow link to next page (About)
 
 ABOUT:
 - 
@@ -71,12 +72,14 @@ PROJECTS:
 - 
 
 CONTACT:
-- Heading reduces
-- Contact form format remains, size reduces though, and positioning changes by becoming central.
+- ~~Heading reduces~~ ✓
+- ~~Contact form format remains, size reduces though, and positioning changes by becoming central.~~ ✓
+- ~~Searchbar goes.~~ ✓
+- ~~Arrow pointing up enters.~~ ✓
+- Re include footer
 - Phone No. and Email address go. Unless they are replaced with icons in footer. Phone icon pressed sends you to phone app on your mobile, and Email icon pressed sends you to newly open email ready to be composed.
-- Searchbar goes.
-- Arrow pointing up enters.
 - Add bouncing animation to arrow.
+- Direct arrow link to previous page (Projects)
 - Name, Year, and Copyright symbol goes.
 
 
