@@ -16,25 +16,31 @@ OR
 - ~~Make sure footer is not blurred on About and Skills pages.~~ ✓
 - ~~Fix spacing after final letter for heading and link text (Use devops tool to see spacing difference)~~ ✓
 - ~~Fix photos loading~~ ✓
+- ~~Look up how your website will change layout with different screen sizes.~~ ✓
 
 - Find out how to get magnifying glass in search bar button 
 - Figure container is 1308x597. However, that size only works for the pre-determined sized you used for the your wireframes on figma (1440x1024. Mac)
-- Look up how your website will change layout with different screen sizes.
 - Gentle/Soft Transition as the entire page loads?
 - Make images on home page transparent when viewing About and Skills pages?
+- Make background colour of About and Skills the same.
+
+- Make website work on mobile
 
 HOME PAGE:
 - Decide on remaining images
+- Make Home page mobile/tablet friendly.
 
-~~ABOUT PAGE:~~ ✓
+ABOUT PAGE:
 - ~~Inlclude photos~~ ✓
 - ~~Write up text/paragraph~~ ✓ 
+- Make About page mobile/tablet friendly.
 
-~~SKILLS PAGE:~~ ✓
+SKILLS PAGE:
 - ~~Write text content for skills page~~ ✓
 - ~~Don't go into detail about how you have used/applied these skills.  Save that for the projects page.~~ ✓
 - ~~Include photos.  Make it a gallery?~~ ✓
 - ~~Include logos of languages in allocated spots~~ ✓
+- Make Skills page mobile/tablet friendly.
 
 PROJECTS PAGE:
 - ~~Include projects you have worked on:~~
@@ -44,9 +50,35 @@ PROJECTS PAGE:
 - ~~Fix About and Skills pages when on Projects page~~ ✓
 - Include images of mentioned projects
 - More text for Portfolio project
+- Make Projects page mobile/tablet frienldy
 
 CONTACT PAGE:
 - ~~Fix About and Skills pages when on Contact page~~ ✓
+- Make Contact page mobile/tablet friendly.
+
+**MOBILE**
+
+HOME:
+- 
+
+ABOUT:
+- 
+
+SKILLS:
+- 
+
+PROJECTS:
+- 
+
+CONTACT:
+- Heading reduces
+- Contact form format remains, size reduces though, and positioning changes by becoming central.
+- Phone No. and Email address go. Unless they are replaced with icons in footer. Phone icon pressed sends you to phone app on your mobile, and Email icon pressed sends you to newly open email ready to be composed.
+- Searchbar goes.
+- Arrow pointing up enters.
+- Add bouncing animation to arrow.
+- Name, Year, and Copyright symbol goes.
+
 
 - Mention all the languages and soft skills listed on the coder academy website for the course in your 'Skills' page.  Also, mention work history and the relevant transferable skills you've learnt from it.
 ![Screenshot of section of site](C8A2E89E-3B99-4CC5-A237-A3BD5922E99D.png)
