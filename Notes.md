@@ -14,41 +14,39 @@ OR
 - ~~Figure out why images don't blur when about and skills pages are opened~~ ✓
 - ~~Create button on photos with fade overlay effect~~ ✓
 - ~~Make sure footer is not blurred on About and Skills pages.~~ ✓
+- ~~Fix spacing after final letter for heading and link text (Use devops tool to see spacing difference)~~ ✓
+- ~~Fix photos loading~~ ✓
 
-- Insert programming language logos below paragraph on skills page, as shown in the wireframe.
 - Find out how to get magnifying glass in search bar button 
-- Fix spacing after final letter for heading and link text (Use devops tool to see spacing difference) 
 - Figure container is 1308x597. However, that size only works for the pre-determined sized you used for the your wireframes on figma (1440x1024. Mac)
 - Look up how your website will change layout with different screen sizes.
-- Fix photos loading
-- Insert images/photos for About and Skills sections
-- Figure out why animation won't work. Maybe ask Alex?
 - Gentle/Soft Transition as the entire page loads?
 - Make images on home page transparent when viewing About and Skills pages?
 
 HOME PAGE:
 - Decide on remaining images
 
-ABOUT PAGE:
-- Write up text/paragraph
+~~ABOUT PAGE:~~ ✓
 - ~~Inlclude photos~~ ✓
+- ~~Write up text/paragraph~~ ✓ 
 
-SKILLS PAGE:
+~~SKILLS PAGE:~~ ✓
 - ~~Write text content for skills page~~ ✓
 - ~~Don't go into detail about how you have used/applied these skills.  Save that for the projects page.~~ ✓
-- Include photos.  Make it a gallery?
-- Include logos of languages. Bottom of paragraph or adjacent to languages?
+- ~~Include photos.  Make it a gallery?~~ ✓
+- ~~Include logos of languages in allocated spots~~ ✓
 
 PROJECTS PAGE:
-- Include projects you have worked on:
+- ~~Include projects you have worked on:~~
                                 - ~~Wireframes Assesment~~ ✓
                                 - ~~Making this website~~ ✓
+- ~~Fix positioning, sizing, and spacing of text and headings.~~ ✓
+- ~~Fix About and Skills pages when on Projects page~~ ✓
 - Include images of mentioned projects
-- Fix positioning, sizing, and spacing of text and headings.
-- One full page per project.
+- More text for Portfolio project
 
 CONTACT PAGE:
-- Make sure contact form is functioning
+- ~~Fix About and Skills pages when on Contact page~~ ✓
 
 - Mention all the languages and soft skills listed on the coder academy website for the course in your 'Skills' page.  Also, mention work history and the relevant transferable skills you've learnt from it.
 ![Screenshot of section of site](C8A2E89E-3B99-4CC5-A237-A3BD5922E99D.png)
@@ -58,5 +56,5 @@ CONTACT PAGE:
 
 - Reference Contact photo to Photo by <a href="https://unsplash.com/@quinoal?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Quino Al</a> on <a href="https://unsplash.com/photos/black-corded-telephone-4SNUcHPiC8c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - Reference Skills Image Photo by <a href="https://unsplash.com/@florianolv?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Florian Olivo</a> on <a href="https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-- Reference Flaticons. Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>. In footer?
-      
+- Reference Skills Image Photo by <a href="https://unsplash.com/@uns__nstudio?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unseen Studio</a> on <a href="https://unsplash.com/photos/person-writing-on-brown-wooden-table-near-white-ceramic-mug-s9CC2SKySJM?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+- Reference Flaticons. Uicons by <a href="https://www.flaticon.com/uicons">Flaticon</a>. In footer? 
