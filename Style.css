@@ -680,10 +680,6 @@ html, body {
         display: none;
     }
 
-    body {
-        /* width: 96%; */
-    }
-
     h1 {
         letter-spacing: 20px;
         margin: 0 0 2% 0;
@@ -773,6 +769,10 @@ html, body {
 
 @media only screen and (min-width: 601px) {
     .scrollup {
+        display: none;
+    }
+
+    .scrolldown {
         display: none;
     }
 
