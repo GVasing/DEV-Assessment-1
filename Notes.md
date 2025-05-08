@@ -17,17 +17,18 @@ OR
 - ~~Fix spacing after final letter for heading and link text (Use devops tool to see spacing difference)~~ ✓
 - ~~Fix photos loading~~ ✓
 - ~~Look up how your website will change layout with different screen sizes.~~ ✓
+- ~~Make background colour of About and Skills the same.~~ ✓
 
 - Find out how to get magnifying glass in search bar button 
 - Figure container is 1308x597. However, that size only works for the pre-determined sized you used for the your wireframes on figma (1440x1024. Mac)
 - Gentle/Soft Transition as the entire page loads?
 - Make images on home page transparent when viewing About and Skills pages?
-- Make background colour of About and Skills the same.
+- Disable landscape orientation for mobile
 
 - Make website work on mobile
 
 HOME PAGE:
-- Decide on remaining images
+- ~~Decide on remaining images~~ ✓
 - Make Home page mobile/tablet friendly.
 
 ABOUT PAGE:
@@ -48,7 +49,7 @@ PROJECTS PAGE:
                                 - ~~Making this website~~ ✓
 - ~~Fix positioning, sizing, and spacing of text and headings.~~ ✓
 - ~~Fix About and Skills pages when on Projects page~~ ✓
-- Include images of mentioned projects
+- ~~Include images of mentioned projects~~ ✓
 - More text for Portfolio project
 - Make Projects page mobile/tablet frienldy
 
@@ -61,9 +62,13 @@ CONTACT PAGE:
 HOME:
 - Apply animation to down arrow
 - Direct arrow link to next page (About)
+- Header too wide. Makes the page wider than the viewport, in turn showing the blue container isn't central.
 
 ABOUT:
-- 
+- ~~Needs blue backdrop~~ ✓
+- ~~Heading and paragraph both inside~~ ✓
+- ~~Text centred~~ ✓
+- ~~Up and Down arrows~~ ✓
 
 SKILLS:
 - 
@@ -76,6 +81,7 @@ CONTACT:
 - ~~Contact form format remains, size reduces though, and positioning changes by becoming central.~~ ✓
 - ~~Searchbar goes.~~ ✓
 - ~~Arrow pointing up enters.~~ ✓
+- Header still a touch too wide. Reference site on phone physically to see.
 - Re include footer
 - Phone No. and Email address go. Unless they are replaced with icons in footer. Phone icon pressed sends you to phone app on your mobile, and Email icon pressed sends you to newly open email ready to be composed.
 - Add bouncing animation to arrow.
