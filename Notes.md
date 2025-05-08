@@ -63,12 +63,14 @@ HOME:
 - Apply animation to down arrow
 - Direct arrow link to next page (About)
 - Header too wide. Makes the page wider than the viewport, in turn showing the blue container isn't central.
+- Link About and Skills pages to their mobile urls
 
 ABOUT:
 - ~~Needs blue backdrop~~ ✓
 - ~~Heading and paragraph both inside~~ ✓
 - ~~Text centred~~ ✓
 - ~~Up and Down arrows~~ ✓
+- ~~Link Home and Skills pages to mobile versions~~ ✓
 
 SKILLS:
 - 
