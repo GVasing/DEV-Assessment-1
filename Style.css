@@ -29,7 +29,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* margin-left: -50px; */
 }
 
 .mobtopnav {
@@ -44,11 +43,6 @@ header {
         font-family: Arial, Helvetica, sans-serif;
         letter-spacing: 5px;
 }
-/* #AbtMobBttn {
-    position: absolute;
-    left: 55.5px;
-    top: 40px;
-} */
 
 .searchbar {
     width: 40%;
@@ -624,19 +618,7 @@ html, body {
         font-size: 8px;
     }
 
-    /* #HomeMobNav {
-        position: relative;
-        left: 80px;
-    } */
-
-    /* #AbtMobBttn {
-        background-color: transparent;
-        position: absolute;
-        left: 10px;
-        top: 48px;
-    } */
-
-    #AbtDeskBttn {
+    #AbtDeskBttn, #SklsDeskBttn {
         display: none;
     }
 
@@ -767,8 +749,7 @@ html, body {
         display: none;
     }
 
-    #AbtMobBttn {
+    #AbtMobBttn, #SklsMobBttn {
         display: none;
-
     }
 }
