@@ -13,7 +13,9 @@ h1{
 .pageheading {
     width: 100%;
     height: auto;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
 }
 
 header {
@@ -25,7 +27,7 @@ header {
 
 .topnav {
     width: 60%;
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -33,7 +35,7 @@ header {
 
 .mobtopnav {
     width: 100%;
-    height: auto;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -227,18 +229,17 @@ header {
     width: 85%;
     height: 100%;
     position: absolute;
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: flex-end;
     border-style: solid;
     border-color: rgb(255, 0, 0);
     border-width: 1px;
 }
 
-/* .skillsmobcon, .skillsmobimg {
-    position: relative;
-    top: 25%;
-} */
+.skillsmobimg > img {
+    margin-bottom: 30px;
+}
 
 .about-heading {
     width: 600px;
@@ -680,13 +681,28 @@ html, body {
     flex-wrap: wrap;
 }
 
-.scrollup {
+/* .scrollup {
     position: static;
     width: 100%;
     font-size: 50px;
     display: flex;
     justify-content: center;
     margin-top: 1%;
+} */
+
+.scrollup {
+    font-size: 50px;
+    color: #939393;
+}
+
+.scrolldown {
+    font-size: 50px;
+    color: #939393;
+}
+
+.scrollup:hover, .scrolldown:hover {
+    color: black;
+    font-weight: bolder;
 }
 
 @media only screen and (max-width: 600px) {
@@ -768,27 +784,6 @@ html, body {
         justify-content: center;
     }
 
-    .scrollup {
-        font-size: 50px;
-        margin-top: 2%;
-        color: #939393;
-        transition: 1s;
-    }
-
-    .scrolldown {
-        font-size: 50px;
-        position: absolute;
-        top: 91%;
-        left: 45%;
-        color: #939393;
-        transition: 1s;    
-    }
-
-    .scrollup:hover, .scrolldown:hover {
-        color: black;
-        font-weight: bolder;
-    }
-
     .aboutmobcon {
         height: 88%;
         position: absolute;
@@ -800,7 +795,6 @@ html, body {
         position: absolute;
         top: 25%;
         padding: 0 30px;
-        /* margin-top: 20px; */
     }
 
     #aboutmobhead {
@@ -809,13 +803,56 @@ html, body {
         left: 4%;
     }
 
+    #aboutscrollup {
+        position: absolute;
+        left: 45%;
+        top: 13%;
+    }
+
     #aboutscrolldown {
-        font-size: 50px;
         position: absolute;
         top: 110%;
         left: 45%;
-        color: #939393;
         transition: 1s;
+    }
+
+    #skillsmobhead {
+        position: relative;
+        bottom: 52%;
+    }
+
+    .skillsmobsect {
+        position: absolute;
+        top: 30%;
+    }
+
+    .skillsmobimg {
+            width: 85%;
+            height: 100%;
+            position: absolute;
+            top: 55%;
+            /* margin-bottom: 10px; */
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            border-style: solid;
+            border-color: rgb(255, 0, 0);
+            border-width: 1px;
+        }
+    .skillsmobimg > img {
+        margin-bottom: 20%;
+    }
+
+    #skillsscrollup {
+        position: absolute;
+        top: 13%;
+        left: 45%;
+    }
+
+    #skillsscrolldown {
+        position: absolute;
+        bottom: -85%;
+        left: 45%;
     }
 }
 
