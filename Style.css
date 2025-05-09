@@ -44,10 +44,10 @@ header {
     align-items: center;
     justify-content: center;
     min-width: 0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
     margin: 0;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
 }
 
 .topnav > a {
@@ -159,6 +159,10 @@ header {
     align-items: center;
     min-width: 0;
     background-color: rgb(0,128,255,0.3);
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    border-radius: 2%;
 }
 
 .aboutmobpara {
@@ -634,7 +638,7 @@ section > h2 {
     font-weight: bold;
 }
 
-#wireframeshead {
+.projecthead {
     margin: 5% 0;
     display: flex;
     justify-content: center;
@@ -715,9 +719,13 @@ html, body {
 
 @media only screen and (max-width: 600px) {
 
+    .topnav {
+        display: none;
+    }
+    
     .homeheader {
         position: relative;
-        bottom: 12px;
+        bottom: 9px;
         /* border-style: solid;
         border-color: black;
         border-width: 1px; */
@@ -795,15 +803,15 @@ html, body {
 
     .aboutmobheader {
         position: relative;
-        right: 2%;
+        /* right: 2%; */
         bottom: 9px;
     }
     
-    .pageheading {
+    /* .pageheading {
         display: flex;
         justify-content: center;
         min-width: 0;
-    }
+    } */
     
     .aboutmobcon {
         height: 88%;
@@ -821,7 +829,8 @@ html, body {
     #aboutmobhead {
         position: absolute;
         top: 35%;
-        left: 4%;
+        right: 0;
+        min-width: 0;
     }
 
     #aboutscrollup {
@@ -840,7 +849,7 @@ html, body {
     .skillsmobheader {
         position: relative;
         width: 150%;
-        bottom: 147px;
+        bottom: 149px;
         /* right: 7px; */
         /* margin: 0; */
     }    
@@ -871,50 +880,45 @@ html, body {
 
     .projectsheader {
         position: relative;
-        bottom: 8px;
-        border-style: solid;
-        border-color: black;
-        border-width: 1px;
+        bottom: 9px;
     }
 
     #projectsmobhead {
         position: absolute;
         top: 20%;
+        right: 0;
     }
 
     section {
         position: relative;
         width: 100%;
         top: 16%;
-        left: 5%;
-        margin-bottom: 20px;
-        /* bottom: 50%; */
-        /* display: flex;
-        align-items: center; */
+        margin: 0;
+        /* margin-bottom: 20px; */
     }
 
     .projecthead {
         position: relative;
-        right: 5%;
     }
 
     section > p, .scdp {
-        width: 85%;
+        width: 100%;
         margin: 0;
         text-align: center;
     }
 
     section > img {
         display: block;
-        /* position: relative; */
         position: absolute;
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     section img:nth-of-type(1) {
-        left: -3%;
-        bottom: -10%;
+        /* left: -3%; */
+        left: 0;
+        right: 0;
+        bottom: -25%;
         border-style: solid;
         border-color: black;
         border-width: 1px;
@@ -922,8 +926,10 @@ html, body {
     }
     
     section img:nth-of-type(2) {
-        left: -3%;
-        bottom: -20%;
+        /* left: -3%; */
+        left: 0;
+        right: 0;
+        bottom: -50%;
         border-style: solid;
         border-color: black;
         border-width: 1px;
@@ -939,17 +945,18 @@ html, body {
     #projectsscrolldown {
         position: relative;
         left: 45%;
-        top: 82%;
+        top: 150%;
     }
 
     .contactheader {
         position: relative;
-        bottom: 36px;
+        bottom: 37px;
     }
     
     #contactmobhead {
         position: absolute;
         top: 20%;
+        left: 0;
     }
 
     .contactform {
@@ -983,6 +990,10 @@ html, body {
     }
 
     #AbtMobBttn, #SklsMobBttn {
+        display: none;
+    }
+
+    .mobtopnav {
         display: none;
     }
 }
