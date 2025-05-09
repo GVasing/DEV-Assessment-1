@@ -726,7 +726,7 @@ html, body {
     
     .homeheader {
         position: relative;
-        bottom: 20px;
+        bottom: 12px;
     }
 
     #homescrolldown {
@@ -736,7 +736,7 @@ html, body {
     }
 
     .navbttn {
-        font-size: 8px;
+        font-size: 7px;
     }
 
     #AbtDeskBttn, #SklsDeskBttn {
@@ -832,7 +832,7 @@ html, body {
     
     #aboutscrolldown {
         position: absolute;
-        top: 110%;
+        top: 111%;
         left: 46%;
         transition: 1s;
     }
@@ -859,19 +859,20 @@ html, body {
     
     #skillsscrollup {
         position: absolute;
-        top: 13%;
+        top: 10%;
         left: 46%;
     }
     
     #skillsscrolldown {
         position: absolute;
-        bottom: -48%;
+        bottom: -55%;
         left: 46%;
     }
 
     .projectsheader {
         position: relative;
         bottom: 9px;
+        margin: 0;
     }
 
     #projectsmobhead {
@@ -883,18 +884,21 @@ html, body {
     section {
         position: relative;
         width: 100%;
-        top: 16%;
-        margin: 0;
+        top: 16%;;
         /* margin-bottom: 20px; */
     }
 
     .projecthead {
         position: relative;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     section > p, .scdp {
-        width: 100%;
-        margin: 0;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
         text-align: center;
     }
 
@@ -906,10 +910,10 @@ html, body {
     }
 
     section img:nth-of-type(1) {
-        /* left: -3%; */
-        left: 0;
-        right: 0;
-        bottom: -25%;
+        width: 90%;
+        height: 9%;
+        left: 20px;
+        bottom: -10%;
         border-style: solid;
         border-color: black;
         border-width: 1px;
@@ -917,10 +921,10 @@ html, body {
     }
     
     section img:nth-of-type(2) {
-        /* left: -3%; */
-        left: 0;
-        right: 0;
-        bottom: -50%;
+        width: 90%;
+        height: 9%;
+        left: 20px;
+        bottom: -20%;
         border-style: solid;
         border-color: black;
         border-width: 1px;
@@ -936,7 +940,7 @@ html, body {
     #projectsscrolldown {
         position: relative;
         left: 46%;
-        top: 150%;
+        top: 95%;
     }
 
     .contactheader {
