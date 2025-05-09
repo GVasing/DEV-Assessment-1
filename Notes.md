@@ -18,18 +18,12 @@ OR
 - ~~Fix photos loading~~ ✓
 - ~~Look up how your website will change layout with different screen sizes.~~ ✓
 - ~~Make background colour of About and Skills the same.~~ ✓
-
-- Find out how to get magnifying glass in search bar button 
-- Figure container is 1308x597. However, that size only works for the pre-determined sized you used for the your wireframes on figma (1440x1024. Mac)
 - Gentle/Soft Transition as the entire page loads?
-- Make images on home page transparent when viewing About and Skills pages?
 - Disable landscape orientation for mobile
-
-- Make website work on mobile
 
 HOME PAGE:
 - ~~Decide on remaining images~~ ✓
-- Make Home page mobile/tablet friendly.
+- ~~Make Home page mobile/tablet friendly.~~ ✓
 
 ABOUT PAGE:
 - ~~Inlclude photos~~ ✓
@@ -41,7 +35,7 @@ SKILLS PAGE:
 - ~~Don't go into detail about how you have used/applied these skills.  Save that for the projects page.~~ ✓
 - ~~Include photos.  Make it a gallery?~~ ✓
 - ~~Include logos of languages in allocated spots~~ ✓
-- Make Skills page mobile/tablet friendly.
+- ~~Make Skills page mobile/tablet friendly.~~ ✓
 
 PROJECTS PAGE:
 - ~~Include projects you have worked on:~~
@@ -50,20 +44,18 @@ PROJECTS PAGE:
 - ~~Fix positioning, sizing, and spacing of text and headings.~~ ✓
 - ~~Fix About and Skills pages when on Projects page~~ ✓
 - ~~Include images of mentioned projects~~ ✓
-- More text for Portfolio project
-- Make Projects page mobile/tablet frienldy
+- ~~More text for Portfolio project~~ ✓
+- ~~Make Projects page mobile/tablet frienldy~~ ✓
 
 CONTACT PAGE:
 - ~~Fix About and Skills pages when on Contact page~~ ✓
-- Make Contact page mobile/tablet friendly.
+- ~~Make Contact page mobile/tablet friendly.~~ ✓
 
 **MOBILE**
 
-HOME:
-- Apply animation to down arrow
-- Direct arrow link to next page (About)
-- Header too wide. Makes the page wider than the viewport, in turn showing the blue container isn't central.
-- Link About and Skills pages to their mobile urls
+HOME: 
+- ~~Header too wide. Makes the page wider than the viewport, in turn showing the blue container isn't central.~~ ✓
+- ~~Link About and Skills pages to their mobile urls~~ ✓
 
 ABOUT:
 - ~~Needs blue backdrop~~ ✓
@@ -83,19 +75,9 @@ CONTACT:
 - ~~Contact form format remains, size reduces though, and positioning changes by becoming central.~~ ✓
 - ~~Searchbar goes.~~ ✓
 - ~~Arrow pointing up enters.~~ ✓
-- Header still a touch too wide. Reference site on phone physically to see.
-- Re include footer
-- Phone No. and Email address go. Unless they are replaced with icons in footer. Phone icon pressed sends you to phone app on your mobile, and Email icon pressed sends you to newly open email ready to be composed.
-- Add bouncing animation to arrow.
-- Direct arrow link to previous page (Projects)
-- Name, Year, and Copyright symbol goes.
+- ~~Header still a touch too wide. Reference site on phone physically to see.~~ ✓
+- ~~Name, Year, and Copyright symbol goes.~~ ✓
 
-
-- Mention all the languages and soft skills listed on the coder academy website for the course in your 'Skills' page.  Also, mention work history and the relevant transferable skills you've learnt from it.
-![Screenshot of section of site](C8A2E89E-3B99-4CC5-A237-A3BD5922E99D.png)
-- If you mention 'aspiring' or 'learning' coder, realise it'll make it harder for job prospects when potential employers look at your portfolio.
-- If resources/content (photos, images, etc.) are used, they must be referenced.  Reference assignment sheet for details.
-- Upload HTML/CSS Website Assignment to github.
 
 - Reference Contact photo to Photo by <a href="https://unsplash.com/@quinoal?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Quino Al</a> on <a href="https://unsplash.com/photos/black-corded-telephone-4SNUcHPiC8c?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
 - Reference Skills Image Photo by <a href="https://unsplash.com/@florianolv?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Florian Olivo</a> on <a href="https://unsplash.com/photos/lines-of-html-codes-4hbJ-eymZ1o?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
