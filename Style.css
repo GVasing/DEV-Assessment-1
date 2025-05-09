@@ -165,12 +165,6 @@ header {
     margin: 0;
 }
 
-.skillsmobheader {
-    position: relative;
-    bottom: 20%;
-    margin: 0;
-}
-
 #skillsmobhead {
     position: relative;
     width: 100%;
@@ -191,10 +185,10 @@ header {
     justify-content: flex-start;
     align-items: center;
     top: 25%;
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
     border-width: 1px;
-    margin: 0;
+    margin: 0; */
 }
 
 .skillsmobcon {
@@ -204,25 +198,23 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    border-style: solid;
+    /* border-style: solid;
     border-color: black;
     border-width: 1px;
-    margin: 0;
+    margin: 0; */
 }
 
 .skillsmobpara {
     width: 100%;
     height: 100%;
     margin: 0;
-    /* position: absolute; */
-    /* bottom: 15px; */
     text-align: center;
     letter-spacing: 5px;
     word-spacing: 5px;
     line-height: 1.8;
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgb(8, 0, 255);
-    border-width: 1px;    
+    border-width: 1px;     */
 }
 
 .skillsmobimg {
@@ -232,9 +224,9 @@ header {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    border-style: solid;
+    /* border-style: solid;
     border-color: rgb(255, 0, 0);
-    border-width: 1px;
+    border-width: 1px; */
 }
 
 .skillsmobimg > img {
@@ -681,15 +673,6 @@ html, body {
     flex-wrap: wrap;
 }
 
-/* .scrollup {
-    position: static;
-    width: 100%;
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 1%;
-} */
-
 .scrollup {
     font-size: 50px;
     color: #939393;
@@ -705,12 +688,26 @@ html, body {
     font-weight: bolder;
 }
 
+.under {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 600px) {
 
-    .homeheader .topnav {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
+    .homeheader {
+        position: relative;
+        bottom: 12px;
+        /* border-style: solid;
+        border-color: black;
+        border-width: 1px; */
+        /* margin: 0; */
+    }
+
+    #homescrolldown {
+        position: absolute;
+        left: 45%;
+        bottom: -4px;
     }
 
     .navbttn {
@@ -731,7 +728,7 @@ html, body {
         font-weight: lighter;
     }
 
-    #welcome {
+    #welcomemobhead {
         display: none;
     }
 
@@ -775,28 +772,30 @@ html, body {
         display: none;
     }
 
-    .contactform {
-        width: 80%;
+    .aboutmobheader {
+        position: relative;
+        right: 2%;
+        bottom: 9px;
     }
-
+    
     .pageheading {
         display: flex;
         justify-content: center;
     }
-
+    
     .aboutmobcon {
         height: 88%;
         position: absolute;
         bottom: -75px;
     }
-
+    
     .aboutmobpara {
         font-size: 10px;
         position: absolute;
         top: 25%;
         padding: 0 30px;
     }
-
+    
     #aboutmobhead {
         position: absolute;
         top: 35%;
@@ -808,7 +807,7 @@ html, body {
         left: 45%;
         top: 13%;
     }
-
+    
     #aboutscrolldown {
         position: absolute;
         top: 110%;
@@ -816,42 +815,131 @@ html, body {
         transition: 1s;
     }
 
+    .skillsmobheader {
+        position: relative;
+        width: 150%;
+        bottom: 147px;
+        right: 7px;
+        /* margin: 0; */
+    }    
+    
     #skillsmobhead {
         position: relative;
         bottom: 52%;
     }
-
+    
     .skillsmobsect {
         position: absolute;
         top: 30%;
     }
 
     .skillsmobimg {
-            width: 85%;
-            height: 100%;
-            position: absolute;
-            top: 55%;
-            /* margin-bottom: 10px; */
-            display: flex;
-            justify-content: center;
-            align-items: flex-end;
-            border-style: solid;
-            border-color: rgb(255, 0, 0);
-            border-width: 1px;
-        }
+        width: 85%;
+        height: 100%;
+        position: absolute;
+        top: 55%;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    
     .skillsmobimg > img {
         margin-bottom: 20%;
     }
-
+    
     #skillsscrollup {
         position: absolute;
         top: 13%;
         left: 45%;
     }
-
+    
     #skillsscrolldown {
         position: absolute;
         bottom: -85%;
+        left: 45%;
+    }
+
+    .projectsheader {
+        position: relative;
+        bottom: 8px;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+    }
+
+    #projectsmobhead {
+        position: absolute;
+        top: 20%;
+    }
+
+    section {
+        position: relative;
+        top: 16%;
+        width: 95%;
+    }
+
+    section > p, .scdp {
+        width: auto;
+        margin: 0;
+        text-align: center;
+    }
+
+    section > img {
+        display: block;
+        /* position: relative; */
+        position: absolute;
+        width: 90%;
+        height: auto;
+    }
+
+    section img:nth-of-type(1) {
+        left: 5%;
+        bottom: -10%;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 2%;
+    }
+    
+    section img:nth-of-type(2) {
+        left: 5%;
+        bottom: -20%;
+        border-style: solid;
+        border-color: black;
+        border-width: 1px;
+        border-radius: 2%;
+    }
+    
+    #projectsscrollup {
+        position: absolute;
+        left: 45%;
+        top: 11%;
+    }
+
+    #projectsscrolldown {
+        position: relative;
+        left: 45%;
+        top: 85%;
+    }
+
+    .contactheader {
+        position: relative;
+        bottom: 36px;
+    }
+    
+    #contactmobhead {
+        position: absolute;
+        top: 20%;
+    }
+
+    .contactform {
+        width: 80%;
+        position: relative;
+    }
+
+    #contactscrollup {
+        position: absolute;
+        top: 11%;
         left: 45%;
     }
 }
