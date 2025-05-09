@@ -14,10 +14,36 @@
     100% {background-color: rgb(0,128,255, 0.3);}
 }
 
-/* body {
+/* @keyframes slowload {
+    0% {filter: blur(100px);}
+    12% {filter: blur(87px);}
+    25% {filter: blur(75px);}
+    37% {filter: blur(62px);}
+    50% {filter: blur(50px);}
+    62% {filter: blur(37px);}
+    75% {filter: blur(25px);}
+    87% {filter: blur(12px);}
+    100% {filter: blur(0px);}
+} */
+
+@keyframes slowload {
+    100% {opacity: 100%;}
+    /* 87% {opacity: 87%;} */
+    75% {opacity: 75%;}
+    /* 62% {opacity: 62%;} */
+    50% {opacity: 50%;}
+    /* 37% {opacity: 37%;} */
+    25% {opacity: 25%;}
+    /* 12% {opacity: 12%;} */
+    0% {opacity: 5%;}
+}
+
+body {
     animation-name: slowload;
     animation-duration: 2s;
-} */
+    animation-iteration-count: 1;
+    animation-timing-function: ease;
+}
 
 h1{
     letter-spacing: 175px;
@@ -567,7 +593,7 @@ button:hover {
 }
 
 .contactform {
-    width: 35%;
+    width: 60%;
     height: auto;
     margin: 25px 0 50px 7.5%;
     display: inline-block;
@@ -626,13 +652,14 @@ textarea {
 }
 
 .contactsct {
-    width: auto;
+    position: absolute;
+    width: 95%;
     height: 414px;
-    margin: 0px 0 50px 7.5%;
+    /* margin: 0px 0 50px 7.5%; */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     min-width: 0;
 }
 
@@ -744,6 +771,10 @@ html, body {
 
 @media only screen and (max-width: 600px) {
 
+    body {
+        animation: none;
+    }
+    
     .topnav {
         display: none;
     }
@@ -865,8 +896,6 @@ html, body {
         position: relative;
         width: 150%;
         bottom: 149px;
-        /* right: 7px; */
-        /* margin: 0; */
     }    
     
     #skillsmobhead {
@@ -987,7 +1016,6 @@ html, body {
         width: 80%;
         position: relative;
         margin: 0;
-        /* left: 64.5px; */
     }
 
     #contactscrollup {
