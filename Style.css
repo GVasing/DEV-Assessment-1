@@ -725,17 +725,13 @@ html, body {
     
     .homeheader {
         position: relative;
-        bottom: 9px;
-        /* border-style: solid;
-        border-color: black;
-        border-width: 1px; */
-        /* margin: 0; */
+        bottom: 20px;
     }
 
     #homescrolldown {
         position: absolute;
         left: 45%;
-        bottom: -4px;
+        bottom: 0;
     }
 
     .navbttn {
@@ -773,13 +769,14 @@ html, body {
     }
 
     .refimagethree {
-        width: 80%;
-        height: 75%;
         position: relative;
-        left: 7.6%;
-        bottom: 2%;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        width: 80%;
+        height: 100%;
+        max-height: 75vh;
+        margin-left: auto;
+        margin-right: auto;
+        bottom: 8%;
+        margin-top: 50px;
         color: rgba(0, 128, 255); 
         display: flex;
         justify-content: center;
@@ -803,15 +800,8 @@ html, body {
 
     .aboutmobheader {
         position: relative;
-        /* right: 2%; */
         bottom: 9px;
     }
-    
-    /* .pageheading {
-        display: flex;
-        justify-content: center;
-        min-width: 0;
-    } */
     
     .aboutmobcon {
         height: 88%;
@@ -950,7 +940,7 @@ html, body {
 
     .contactheader {
         position: relative;
-        bottom: 37px;
+        bottom: 57px;
     }
     
     #contactmobhead {
@@ -959,9 +949,16 @@ html, body {
         left: 0;
     }
 
+    .formcontainer {
+        display: flex;
+        justify-content: center;
+    }
+
     .contactform {
         width: 80%;
         position: relative;
+        margin: 0;
+        /* left: 64.5px; */
     }
 
     #contactscrollup {
