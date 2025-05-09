@@ -730,7 +730,7 @@ html, body {
 
     #homescrolldown {
         position: absolute;
-        left: 270px;
+        left: 46%;
         bottom: 0;
     }
 
@@ -825,14 +825,14 @@ html, body {
 
     #aboutscrollup {
         position: absolute;
-        left: 270px;
+        left: 46%;
         top: 13%;
     }
     
     #aboutscrolldown {
         position: absolute;
         top: 110%;
-        left: 270px;
+        left: 46%;
         transition: 1s;
     }
 
@@ -859,13 +859,13 @@ html, body {
     #skillsscrollup {
         position: absolute;
         top: 13%;
-        left: 270px;
+        left: 46%;
     }
     
     #skillsscrolldown {
         position: absolute;
         bottom: -48%;
-        left: 270px;
+        left: 46%;
     }
 
     .projectsheader {
@@ -928,13 +928,13 @@ html, body {
     
     #projectsscrollup {
         position: absolute;
-        left: 270px;
+        left: 46%;
         top: 11%;
     }
 
     #projectsscrolldown {
         position: relative;
-        left: 270px;
+        left: 46%;
         top: 150%;
     }
 
@@ -964,7 +964,7 @@ html, body {
     #contactscrollup {
         position: absolute;
         top: 11%;
-        left: 270px;
+        left: 46%;
     }
 
     .contactsct {
