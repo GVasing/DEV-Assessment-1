@@ -695,6 +695,7 @@ html, body {
     align-items: center;
     flex-wrap: wrap;
     min-width: 0;
+    margin: 0;
 }
 
 .scrollup {
