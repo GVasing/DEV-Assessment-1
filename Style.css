@@ -856,21 +856,6 @@ html, body {
         left: 0;
         right: 0;
     }
-
-    .skillsmobimg {
-        width: 85%;
-        height: 100%;
-        position: absolute;
-        top: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: flex-end;
-        min-width: 0;
-    }
-    
-    .skillsmobimg > img {
-        margin-bottom: 20%;
-    }
     
     #skillsscrollup {
         position: absolute;
