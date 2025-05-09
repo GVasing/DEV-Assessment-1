@@ -11,11 +11,13 @@ h1{
 }
 
 .pageheading {
+    position: relative;
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
     margin: 0;
+    overflow: hidden;
 }
 
 header {
@@ -726,6 +728,7 @@ html, body {
         letter-spacing: 20px;
         margin: 0 0 2% 0;
         font-weight: lighter;
+        overflow: hidden;
     }
 
     #welcomemobhead {
@@ -874,12 +877,22 @@ html, body {
 
     section {
         position: relative;
+        width: 100%;
         top: 16%;
-        width: 95%;
+        left: 5%;
+        margin-bottom: 20px;
+        /* bottom: 50%; */
+        /* display: flex;
+        align-items: center; */
+    }
+
+    .projecthead {
+        position: relative;
+        right: 5%;
     }
 
     section > p, .scdp {
-        width: auto;
+        width: 85%;
         margin: 0;
         text-align: center;
     }
@@ -893,7 +906,7 @@ html, body {
     }
 
     section img:nth-of-type(1) {
-        left: 5%;
+        left: -3%;
         bottom: -10%;
         border-style: solid;
         border-color: black;
@@ -902,7 +915,7 @@ html, body {
     }
     
     section img:nth-of-type(2) {
-        left: 5%;
+        left: -3%;
         bottom: -20%;
         border-style: solid;
         border-color: black;
@@ -919,7 +932,7 @@ html, body {
     #projectsscrolldown {
         position: relative;
         left: 45%;
-        top: 85%;
+        top: 82%;
     }
 
     .contactheader {
@@ -942,6 +955,11 @@ html, body {
         top: 11%;
         left: 45%;
     }
+
+    .contactsct {
+        display: none;
+    }
+    
 }
 
 @media only screen and (min-width: 601px) {
